@@ -1,4 +1,4 @@
-public class facilityInfo {
+public class FacilityInfo {
 
     private int FacilityID;
     private String AddressFieldOne;
