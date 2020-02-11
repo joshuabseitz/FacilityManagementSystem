@@ -4,7 +4,7 @@ public class FacilityAlter {
       facility.addNewFacility(facility);
     }
 
-  public void removeFacility(String id) {
+  public void removeFacility(int id) {
       facility.remove(id);
   }
 
