@@ -1,4 +1,4 @@
-public class FacilityInfo {
+public class FacilityInfo implements interface_FacilityInfo {
 
     private int FacilityID;
     private String AddressFieldOne;

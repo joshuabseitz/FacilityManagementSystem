@@ -1,6 +1,6 @@
 package com.fms.main;
 
-public interface interface_FacilityInfo implements FacilityInfo {
+public interface interface_FacilityInfo {
 
     public Facility getFacility();
 

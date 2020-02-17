@@ -4,7 +4,7 @@ import FacilityInfo;
 import FacilityUse;
 import FacilityAlter;
 
-public class Facility {
+public class Facility implements interface_Facility {
 
     private int facilityID;
     private FacilityDetails facilityDetail;
