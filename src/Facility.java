@@ -5,9 +5,28 @@ import FacilityInfo;
 import FacilityUse;
 import FacilityAlter;
 
-public class Facility {
+public class interface_Facility implements Facility {
 
-    public static void main(String[] args) {
-        System.out.println("This is the Facility Main Class.")
+    private int facilityID;
+    private FacilityDetails facilityDetail;
+
+    //getter FacilityDetail
+    public FacilityDetails getFacilityDetail() {
+        return facilityDetail;
+    }
+
+    //setter FacilityDetail
+    public void setFacilityDetail(FacilityDetails facilityDetail) {
+        this.facilityDetail = facilityDetail;
+    }
+
+    //setter FacilityID
+    public void setFacilityID(int facilityID) {
+        this.facilityID = facilityID;
+    }
+
+    //getter FacilityID
+    public int getFacilityID() {
+        return facilityID;
     }
 }
