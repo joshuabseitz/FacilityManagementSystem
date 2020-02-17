@@ -1,11 +1,10 @@
-
 import FacilityCapacity;
 import FacilityMaintenance;
 import FacilityInfo;
 import FacilityUse;
 import FacilityAlter;
 
-public class interface_Facility implements Facility {
+public class Facility {
 
     private int facilityID;
     private FacilityDetails facilityDetail;
