@@ -43,32 +43,32 @@ public class FacilityInfo {
     }
 
     // get AddressFieldOne
-    public String setAddressFieldOne(String AddressFieldOne){
+    public String getAddressFieldOne(String AddressFieldOne){
       return AddressFieldOne;
     }
 
     // get AddressFieldTwo
-    public String setAddressFieldTwo(){
+    public String getAddressFieldTwo(){
       return AddressFieldTwo;
     }
 
     // get AddressFieldTwo
-    public String setAddressTwo(){
+    public String getAddressTwo(){
       return AddressFieldTwo;
     }
 
     // get City
-    public String setCity(){
+    public String getCity(){
       return City;
     }
 
     // get State
-    public String setState(){
+    public String getState(){
       return State;
     }
 
     // get ZipCode
-    public int setZipCode(){
+    public int getZipCode(){
       return ZipCode;
     }
 
