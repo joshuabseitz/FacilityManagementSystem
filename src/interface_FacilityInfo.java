@@ -1,5 +1,3 @@
-package com.fms.main;
-
 public interface interface_FacilityInfo {
 
     public Facility getFacility();
