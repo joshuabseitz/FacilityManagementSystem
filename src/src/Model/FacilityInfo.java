@@ -1,4 +1,6 @@
-public class FacilityInfo implements interface_FacilityInfo {
+package src.Model;
+
+public class FacilityInfo {
 
     private int FacilityID;
     private String AddressFieldOne;
@@ -11,7 +13,7 @@ public class FacilityInfo implements interface_FacilityInfo {
     public void setFacilityID(int FacilityID){
       this.FacilityID = FacilityID;
     }
-    
+
     // set AddressFieldOne
     public void setAddressOne(String AddressFieldOne){
       this.AddressFieldOne = AddressFieldOne;

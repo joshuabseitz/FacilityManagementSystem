@@ -1,8 +1,4 @@
-
-import MaintenanceCost;
-import MaintenanceRequest;
-import FacilityDownTime;
-import FacilityProblemRate;
+package src.Model;
 
 public class FacilityMaintenance {
     private String facilityProblems;

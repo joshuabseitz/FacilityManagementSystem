@@ -1,8 +1,10 @@
+package src.Model;
+
 public interface interface_FacilityInfo {
 
     public Facility getFacility();
 
-    // Facility ID getter & setters
+    // src.Model.Facility ID getter & setters
     public int getFacilityID();
     public void setFacilityID(int facilityID);
 
