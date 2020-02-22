@@ -1,17 +1,11 @@
 package src.Model;
 
-public class Facility {
+public interface Facility {
+    FacilityInfo getFacilityInfo();
+    void setFacilityInfo(FacilityInfo Info);
+    FacilityCapacity getFacilityCapacity();
+    void setFacilityCapacity(FacilityCapacity Capacity);
+    FacilityMaintenance getFacilityMaintenance();
+    void setFacilityMaintenance(FacilityMaintenance Maintenance);
 
-    private int facilityID;
-    private FacilityInfo facilityDetail;
-
-    //setter FacilityID
-    public void setFacilityID(int facilityID) {
-        this.facilityID = facilityID;
-    }
-
-    //getter FacilityID
-    public int getFacilityID() {
-        return facilityID;
-    }
 }
