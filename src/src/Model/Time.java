@@ -32,4 +32,9 @@ public class Time
     {
         this.minute = minute;
     }
+
+    public int getFourDigitTime()
+    {
+        return (hour *100) + minute;
+    }
 }
