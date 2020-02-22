@@ -1,13 +1,13 @@
 package src.Model;
 
-public class Time {
+public class Date {
     private int month;
     private int day;
     private int year;
 
-    public Time(){}
+    public Date(){}
 
-    public Time(int month, int day, int year)
+    public Date(int month, int day, int year)
     {
         this.month = month;
         this.day = day;
@@ -44,7 +44,7 @@ public class Time {
         this.year = year;
     }
 
-    public boolean olderThan(Time t)
+    public boolean olderThan(Date t)
     {
         if(this.getYear() < t.getYear())
         {
