@@ -8,8 +8,6 @@ public class Interval {
     private TimeSpan timeSpan;
     private Date date;
 
-    public Interval(){}
-
     public Interval(Week week, Time startTime, Time endTime)
     {
         this.week = week;

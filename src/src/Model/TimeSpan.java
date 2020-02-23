@@ -3,8 +3,6 @@ package src.Model;
 public class TimeSpan {
     private int timeSpan;
 
-    public TimeSpan(){}
-
     public TimeSpan(int timeSpan)
     {
         this.timeSpan = timeSpan;

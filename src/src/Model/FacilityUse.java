@@ -6,8 +6,6 @@ public class FacilityUse {
     private ArrayList<UseRequest> requests;
     private UseSchedule schedule;
 
-    public FacilityUse(){}
-
     public FacilityUse(UseSchedule schedule)
     {
         this.requests = new ArrayList<UseRequest>();

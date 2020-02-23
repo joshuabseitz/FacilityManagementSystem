@@ -5,8 +5,6 @@ public class MaintenanceRequest {
     private String detail;
     private Date requestDate;
 
-    public MaintenanceRequest(){}
-
     public MaintenanceRequest(int priority, String detail, Date requestDate)
     {
         this.priority = priority;

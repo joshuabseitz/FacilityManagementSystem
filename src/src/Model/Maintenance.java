@@ -8,7 +8,6 @@ public class Maintenance implements interface_Maintenance{
     private int cost;
     private Facility facility;
 
-    public Maintenance() {}
 
     //getters and setters
     public int getMaintenanceID() {
@@ -39,7 +38,7 @@ public class Maintenance implements interface_Maintenance{
         return maintenanceDetails;
     }
 
-    public void setMaintenanceDetails(String details) {
+    public void setMaintenanceDetails(String maintenanceDetails) {
         this.maintenanceDetails = maintenanceDetails;
     }
 

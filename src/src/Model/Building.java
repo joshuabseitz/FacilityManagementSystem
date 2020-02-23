@@ -9,8 +9,6 @@ public class Building implements Facility {
     private FacilityMaintenance maintenance;
     private ArrayList<Inspection> inspections;
 
-    Building(){}
-
     public Building(FacilityInfo facilityInfo, FacilityCapacity facilityCapacity, FacilityUse use, FacilityMaintenance maintenance)
     {
         this.facilityInfo = facilityInfo;

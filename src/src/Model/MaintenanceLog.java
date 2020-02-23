@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class MaintenanceLog {
     private HashMap<MaintenanceOrder, Interval> log;
 
-    MaintenanceLog()
+    public MaintenanceLog()
     {
         log = new HashMap<MaintenanceOrder, Interval>();
     }

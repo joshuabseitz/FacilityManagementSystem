@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class MaintenanceSchedule {
     private HashMap<MaintenanceOrder, Interval> schedule;
 
-    MaintenanceSchedule()
+    public MaintenanceSchedule()
     {
         schedule = new HashMap<MaintenanceOrder, Interval>();
     }

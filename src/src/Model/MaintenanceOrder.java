@@ -7,8 +7,6 @@ public class MaintenanceOrder {
     private Date orderDate;
     private int cost;
 
-    public MaintenanceOrder(){}
-
     public MaintenanceOrder(MaintenanceRequest MaintReq, Date orderDate, int cost)
     {
         this.priority = MaintReq.getPriority();

@@ -9,8 +9,6 @@ public class Week {
     private boolean Sat;
     private boolean Sun;
 
-    public Week(){}
-
     public Week(boolean Mon, boolean Tue, boolean Wed, boolean Thurs, boolean Fri, boolean Sat, boolean Sun)
     {
         this.Mon = Mon;
@@ -94,7 +92,11 @@ public class Week {
 
     public boolean cumulative(Week w)
     {
-        return this.isMon() == w.isMon() || this.isTue() == w.isTue() || this.isWed() == w.isWed() || this.isThurs() == w.isThurs() || this.isFri() == w.isFri() || this.isSat() == w.isSat() || this.isSun() == w.isSun();
+        if(this.isMon() == w.isMon() || this.isTue() == w.isTue() || this.isWed() == w.isWed() || this.isThurs() == w.isThurs() || this.isFri() == w.isFri() || this.isSat() == w.isSat() || this.isSun() == w.isSun())
+        {
+            return true;
+        }
+        return false;
     }
 
     public int daysInUse()

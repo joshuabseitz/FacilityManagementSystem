@@ -7,8 +7,6 @@ public class FacilityUser {
     private String userEmail;
     private String userRole;
 
-    public FacilityUser(){}
-
     public FacilityUser(String userID, String userName, long userPhone, String userEmail, String userRole)
     {
         this.userID = userID;

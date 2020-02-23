@@ -4,8 +4,6 @@ public class UseRequest {
     private FacilityUser user;
     private Interval intervalSlot;
 
-    public UseRequest() {}
-
     public UseRequest(FacilityUser user, Interval intervalSlot)
     {
         this.user = user;
