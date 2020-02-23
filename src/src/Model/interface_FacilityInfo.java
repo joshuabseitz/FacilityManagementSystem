@@ -2,8 +2,6 @@ package src.Model;
 
 public interface interface_FacilityInfo {
 
-    Facility getFacility();
-
     // src.Model.Facility ID getter & setters
     int getFacilityID();
     void setFacilityID(int facilityID);
@@ -18,7 +16,7 @@ public interface interface_FacilityInfo {
     String getState();
     void setState(String state);
 
-    int getZip();
-    void setZip(int zip);
+    int getZipCode();
+    void setZipCode(int zipCode);
 
 }
