@@ -14,7 +14,7 @@ import src.Model.interface_Maintenance;
 import src.Model.interface_FacilityInfo;
 
 
-public class BuildingTest extends junit.framework.TestCase {
+public class FacilityTest extends junit.framework.TestCase {
 
     private Building building1;
     private int numberOfFacilities;
