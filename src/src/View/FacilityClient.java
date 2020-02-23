@@ -1,16 +1,13 @@
 package src.View;
 
-// import java.util.List;
-import com.sun.tools.javac.Main;
 import src.Model.*;
-import src.DAL.*;
 
 public class FacilityClient {
 
     public static void main(String args[]) {
 
         //Test Objects
-        //office1
+        //Office Example Sherry Hall
         FacilityInfo office1 = new FacilityInfo(100, 8135862, "6330 N Sheridan Rd", "Chicago", "Illinois", 60660);
         FacilityCapacity fc1 = new FacilityCapacity("Sherry Hall", 100, 1200);
 
