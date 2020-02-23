@@ -1,9 +1,7 @@
 package src.Model;
 
 public class FacilityCapacity {
-
-    private int FacilityCapacity;
-    public int getFacilityCapacity(){ return FacilityCapacity; }
-    public void setFacilityCapacity(int FacilityCapacity){this.FacilityCapacity = FacilityCapacity;}
-
+    private int facilityCapacity;
+    public int getFacilityCapacity(){ return facilityCapacity; }
+    public void setFacilityCapacity(int facilityCapacity){this.facilityCapacity = facilityCapacity;}
 }
