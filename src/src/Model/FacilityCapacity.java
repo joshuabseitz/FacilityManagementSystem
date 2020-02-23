@@ -5,7 +5,7 @@ public class FacilityCapacity {
     private String name;
     private int squareFeet;
 
-    FacilityCapacity(){}
+    public FacilityCapacity(){}
 
     public FacilityCapacity(String name, int facilityCapacity, int squareFeet)
     {
