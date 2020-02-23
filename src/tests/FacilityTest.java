@@ -84,7 +84,7 @@ public class FacilityTest extends junit.framework.TestCase {
     @Test
     public void testFacilityZip() {
         FacilityInfo tBuilding = new FacilityInfo();
-        tBuilding.setFacilityID(60660);
+        tBuilding.setZipCode(60660);
         int result = tBuilding.getZipCode();
         assertEquals(result, 60660);
     }
