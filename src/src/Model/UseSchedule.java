@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class UseSchedule {
     private HashMap<UseRequest, Interval> schedule;
 
-    UseSchedule()
+    public UseSchedule()
     {
         schedule = new HashMap<UseRequest, Interval>();
     }
