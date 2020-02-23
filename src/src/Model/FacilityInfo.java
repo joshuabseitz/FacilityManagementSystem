@@ -4,17 +4,15 @@ public class FacilityInfo {
 
     private int FacilityID;
     private long PhoneNumber;
-    private String AddressFieldOne;
-    private String AddressFieldTwo;
+    private String AddressField;
     private String City;
     private String State;
     private int ZipCode;
 
-    public FacilityInfo(int FacilityID, long PhoneNumber, String AddressFieldOne, String AddressFieldTwo, String City, String State, int ZipCode){
+    public FacilityInfo(int FacilityID, long PhoneNumber, String AddressField, String City, String State, int ZipCode){
         this.FacilityID = FacilityID;
         this.PhoneNumber = PhoneNumber;
-        this.AddressFieldOne = AddressFieldOne;
-        this.AddressFieldTwo = AddressFieldTwo;
+        this.AddressField = AddressField;
         this.City = City;
         this.State = State;
         this.ZipCode = ZipCode;
@@ -27,14 +25,9 @@ public class FacilityInfo {
     // set PhoneNumber
     public void setPhoneNumber(long PhoneNumber) { this.PhoneNumber = PhoneNumber;}
 
-    // set AddressFieldOne
-    public void setAddressOne(String AddressFieldOne){
-      this.AddressFieldOne = AddressFieldOne;
-    }
-
-    // set AddressFieldTwo
-    public void setAddressTwo(String AddressFieldTwo){
-      this.AddressFieldTwo = AddressFieldTwo;
+    // set AddressField
+    public void setAddress(String AddressField){
+      this.AddressField = AddressField;
     }
 
     // set City
@@ -58,22 +51,9 @@ public class FacilityInfo {
     }
     // get PhoneNumber
     public long getPhoneNumber() { return PhoneNumber; }
-    // get AddressFieldOne
-    public String getAddressFieldOne(){
-      return AddressFieldOne;
-    }
-
-    // get AddressFieldOne
-    public String getAddressOne() { return AddressFieldOne; }
-
-    // get AddressFieldTwo
-    public String getAddressFieldTwo(){
-      return AddressFieldTwo;
-    }
-
-    // get AddressFieldTwo
-    public String getAddressTwo(){
-      return AddressFieldTwo;
+    // get AddressField
+    public String getAddressField(){
+      return AddressField;
     }
 
     // get City
