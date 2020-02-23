@@ -6,7 +6,9 @@ public interface Facility {
     FacilityInfo getFacilityInfo();
     void setFacilityInfo(FacilityInfo Info);
     FacilityCapacity getFacilityCapacity();
-    void setFacilityCapacity(FacilityCapacity Capacity);
+    void setFacilityCapacity(FacilityCapacity facilityCapacity);
+    FacilityUse getFacilityUse();
+    void setFacilityUse(FacilityUse use);
     FacilityMaintenance getFacilityMaintenance();
     void setFacilityMaintenance(FacilityMaintenance Maintenance);
     ArrayList<Inspection> getInspections();
