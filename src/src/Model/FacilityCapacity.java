@@ -1,11 +1,9 @@
 package src.Model;
 
-public class FacilityCapacity {
-    private int facilityCapacity;
+public class FacilityCapacity{
     private String name;
+    private int facilityCapacity;
     private int squareFeet;
-
-    public FacilityCapacity(){}
 
     public FacilityCapacity(String name, int facilityCapacity, int squareFeet)
     {
