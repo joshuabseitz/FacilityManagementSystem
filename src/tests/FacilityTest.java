@@ -1,5 +1,7 @@
 package tests;
 
+import android.renderscript.Double2;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,7 +13,6 @@ import src.Model.FacilityInfo;
 import src.Model.Maintenance;
 import src.Model.interface_Facility;
 import src.Model.interface_Maintenance;
-import src.Model.interface_FacilityInfo;
 
 
 public class FacilityTest extends junit.framework.TestCase {
