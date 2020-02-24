@@ -7,7 +7,6 @@ import src.Model.FacilityInfo;
 import java.util.Collection;
 
 public class FacilityDAO {
-    //TODO FacilityDAO
     public FacilityDAO(){}
     public Collection<Facility> listFacilities()
     {
@@ -24,4 +23,19 @@ public class FacilityDAO {
         return Database.db.get(f).getFacilityCapacity();
     }
 
+    public Facility addNewFacility(Facility f)
+    {
+        Database.db.put(f, f);
+        return Database.db.get(f);
+    }
+
+    public void addFacilityDetail(Facility f, FacilityInfo fi)
+    {
+        Database.db.get(f).setFacilityInfo(fi);
+    }
+
+    public void removeFacility(Facility f)
+    {
+        Database.db.remove(f);
+    }
 }
