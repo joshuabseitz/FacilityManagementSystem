@@ -68,7 +68,7 @@ public class UseDAO {
                 totalMinutesInUse += i.getTimeSpan().getTimeSpan();
             }
         }
-        usageRate = totalMinutesInUse/10080;
+        usageRate = totalMinutesInUse/10000;
 
         return usageRate;
     }
