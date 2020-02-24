@@ -12,6 +12,8 @@ public class Date {
         this.year = year;
     }
 
+    public Date() {}
+
     public int getMonth()
     {
         return month;
