@@ -18,6 +18,8 @@ public class FacilityInfo implements interface_FacilityInfo{
         this.ZipCode = ZipCode;
     }
 
+    public FacilityInfo() {}
+
     // set FacilityID
     public void setFacilityID(int FacilityID){
       this.FacilityID = FacilityID;
