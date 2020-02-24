@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import src.Model.Building;
 import src.Model.FacilityInfo;
 import src.Model.Maintenance;
-import src.Model.interface_Facility;
+import src.Model.Facility;
 import src.Model.interface_Maintenance;
 
 
@@ -19,8 +19,8 @@ public class FacilityTest extends junit.framework.TestCase {
 
     private Building building1;
     private int numberOfFacilities;
-    private ArrayList<interface_Facility> facilityInfo = new ArrayList<interface_Facility>();
-    private ArrayList<interface_Facility> facilities = new ArrayList<interface_Facility>();
+    private ArrayList<Facility> facilityInfo = new ArrayList<Facility>();
+    private ArrayList<Facility> facilities = new ArrayList<Facility>();
     private Maintenance maintDetails = new Maintenance();
     private ArrayList<interface_Maintenance> maintReports = new ArrayList<interface_Maintenance>();
 
