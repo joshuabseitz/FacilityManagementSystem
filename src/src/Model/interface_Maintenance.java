@@ -2,7 +2,7 @@ package src.Model;
 
 public interface interface_Maintenance {
 
-    //declaring getters and setters
+    //declaring getters and setters for maintenance
 
     public Facility getFacility();
     public void setFacility(Facility facility);
