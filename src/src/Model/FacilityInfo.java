@@ -2,6 +2,7 @@ package src.Model;
 
 public class FacilityInfo implements interface_FacilityInfo{
 
+    //instantiates variable
     private int FacilityID;
     private long PhoneNumber;
     private String AddressField;
@@ -9,6 +10,7 @@ public class FacilityInfo implements interface_FacilityInfo{
     private String State;
     private int ZipCode;
 
+    //method for setting variables
     public FacilityInfo(int FacilityID, long PhoneNumber, String AddressField, String City, String State, int ZipCode){
         this.FacilityID = FacilityID;
         this.PhoneNumber = PhoneNumber;
