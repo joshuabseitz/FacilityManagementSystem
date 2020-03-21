@@ -21,7 +21,7 @@ public class TimeSpan {
         return timeSpan;
     }
 
-    //setter for timespan
+    //setter for timespan 
     public void setTimeSpan(int timeSpan)
     {
         this.timeSpan = timeSpan;
