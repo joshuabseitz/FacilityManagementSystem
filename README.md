@@ -7,3 +7,4 @@ The UML diagram shows the interactions between the three different layers as wel
 
 In order to test the program it would be easier to compile and run "FacilityClient.java" in the cs373p1/src/src/View/ folder. This will run through all the classes in the model layer as well as instantiate interactions with the data access layer.
 
+In the cs373p1/src/tests/ folder there are two classes "FacilityTest.java" and "MaintenanceTest.java" which will test the objects of the respective sections of the project.
