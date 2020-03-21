@@ -2,6 +2,7 @@ package src.Model;
 
 import java.util.ArrayList;
 
+//interface for facility 
 public interface Facility {
     FacilityInfo getFacilityInfo();
     void setFacilityInfo(FacilityInfo Info);
