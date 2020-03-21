@@ -6,15 +6,20 @@ import java.util.ArrayList;
 
 public class MaintenanceDAO {
     public MaintenanceDAO(){}
-
+    
+    //adds a maintenance request for a specific facility
     public void makeFacilityMaintenanceRequest(Facility f, MaintenanceRequest mr)
     {
         Database.db.get(f).getFacilityMaintenance().addMaintenanceRequest(mr);
     }
+    
+    //adds maintenance facility to the schedule
     public void scheduleMaintenance(Facility f, MaintenanceOrder mo, Interval i)
     {
         Database.db.get(f).getFacilityMaintenance().addOrderToSchedule(mo, i);
     }
+    
+    //calculates the total cost for facility maintenance of a specific facility
     public int calcMaintenanceCostForFacility(Facility f)
     {
         int totalCost = 0;
@@ -36,6 +41,8 @@ public class MaintenanceDAO {
 
         return totalCost;
     }
+    
+    //calculates number of problems for a specified facility
     public String calcProblemRateForFacility(Facility f)
     {
         int totalProblems = 0;
@@ -69,7 +76,8 @@ public class MaintenanceDAO {
         }
         return totalProblems + " as of " + lastTime.toString();
     }
-
+    
+    //calculates the downtime for the specified facility
     public int calcDownTimeForFacility(Facility f)
     {
         int downTime = 0;
@@ -85,17 +93,20 @@ public class MaintenanceDAO {
 
         return downTime;
     }
-
+    
+    //lists the maintenance requests for a specified facility
     public ArrayList<MaintenanceRequest> listMaintRequests(Facility f)
     {
         return Database.db.get(f).getFacilityMaintenance().getMaintenanceRequests();
     }
-
+    
+    //lists maintenance orders for a specified facility
     public ArrayList<MaintenanceOrder> listMaintenance(Facility f)
     {
         return Database.db.get(f).getFacilityMaintenance().getMaintenanceOrders();
     }
-
+    
+    //lists the facility problems for a specified facility
     public MaintenanceSchedule listFacilityProblems(Facility f)
     {
         return Database.db.get(f).getFacilityMaintenance().getMaintenanceSchedule();
