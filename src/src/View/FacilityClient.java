@@ -6,7 +6,17 @@ public class FacilityClient {
 
     public static void main(String args[]) {
 
-        //Test Objects
+        //Office Example 2 with Spring
+
+        FacilityInfo CorboyCenter = (Facility) context.getBean("facility");
+
+        CorboyCenter.setPhoneNumber(777777);
+        CorboyCenter.setFacilityID(111);
+        CorboyCenter.setAddress("26 E Pearson St");
+        CorboyCenter.setCity("Chicago");
+        CorboyCenter.setState("Illinois");
+        CorboyCenter.setZipCode(60611);
+
         //Office Example Sherry Hall
         FacilityInfo office1 = new FacilityInfo(100, 8135862, "6330 N Sheridan Rd", "Chicago", "Illinois", 60660);
         FacilityCapacity fc1 = new FacilityCapacity("Sherry Hall", 100, 1200);

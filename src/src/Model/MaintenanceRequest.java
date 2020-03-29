@@ -7,6 +7,10 @@ public class MaintenanceRequest {
     private Date requestDate;
 
     //method for setting variables
+
+    public MaintenanceRequest()
+    { }
+
     public MaintenanceRequest(int priority, String detail, Date requestDate)
     {
         this.priority = priority;
