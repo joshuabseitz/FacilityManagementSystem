@@ -1,6 +1,6 @@
-# cs373project1
+# cs373project2
 
-This is a Facility Management System project for our Comp 373/473 Class. It's purpose is to implement the features named in the instructions given and simplify dependency.
+This is a Facility Management System project for our Comp 373/473 Class. It's purpose is to instantiate the created objects using the Spring Framework to create the dependencies at runtime.
 
 The project has 3 main structures: the data acess layer, the model layer, and the view layer.
 The UML diagram shows the interactions between the three different layers as well as the interactions between the separate classes within the layers.
